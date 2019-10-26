@@ -1,0 +1,22 @@
+{
+  "name": "to-do-mvc-cypress-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open":"cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mici17/to-do-mvc-cypress-test-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mici17/to-do-mvc-cypress-test-project/issues"
+  },
+  "homepage": "https://github.com/mici17/to-do-mvc-cypress-test-project#readme",
+  "dependencies": {
+    "cypress": "^3.5.0"
+  }
+}
