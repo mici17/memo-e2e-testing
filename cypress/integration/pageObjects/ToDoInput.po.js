@@ -3,8 +3,14 @@ const SELECTORS = Object.freeze ({
 })
 
 class ToDoInputPageObject {
+    getToDo () {
+        return cy.get(SELECTORS.INPUT)
+    }
+    
     addtoDo (text) {
-        cy.get(SELECTORS.INPUT).type(`${text} {enter}`)
+        this
+            .getToDo()
+            .type(`${text} {enter}`)
     }
 }
 
