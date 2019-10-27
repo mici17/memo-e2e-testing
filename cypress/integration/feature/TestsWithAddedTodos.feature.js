@@ -2,7 +2,7 @@ import { ToDoInputPo } from '../pageObjects/ToDoInput.po';
 import { ToDoListPo } from '../pageObjects/ToDoListPageObject.po';
 import { PageElementsPo } from '../pageObjects/PageElements.po';
 
-describe('Testing funcionality when todoitems are added', () => {
+describe('Testing functionality when todoitems are added', () => {
     const walkDog = 'Walk dog';
     const buyGroceries = 'Buy groceries';
     const goToDentist = 'Go to dentist';

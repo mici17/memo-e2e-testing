@@ -2,7 +2,7 @@ import { ToDoInputPo } from '../pageObjects/ToDoInput.po';
 import {ToDoListPo} from '../pageObjects/ToDoListPageObject.po';
 import { PageElementsPo } from '../pageObjects/PageElements.po';
 
-describe('Checking input funcionality', () => {
+describe('Checking input functionality', () => {
     const walkDog = 'Walk dog';
     const label = 'label';
     const edit = '.edit';
